@@ -6,6 +6,12 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      "padraoCinzaC": "#111521",
+      "padraoCinzaE": "#070B14",
+      "padraoCinzaSC": "#1F2437",
+      "dourado": "#F28D19"
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
