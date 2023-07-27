@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import AsideBar from "./components/layout/aside"
+import TopBar from "./components/layout/top"
 
 const roboto = Roboto({ subsets: ['latin'], weight: '300'})
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={roboto.className}>
         <div className='w-screen h-screen bg-padraoCinzaE flex flex-row'>
           <AsideBar/>
+          <TopBar/>
           {children}
         </div>
       </body>

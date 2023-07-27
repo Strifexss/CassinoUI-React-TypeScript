@@ -8,7 +8,7 @@ interface Props {
 }
 
 export default function bigButton({icone, texto, hasNotification = false, notification}:Props) {
-    const classe = `w-[90%] h-[2.5rem]  p-2 gap-4 flex flex-row items-center  bg-padraoCinzaSC rounded-md hover:bg-padraoCinzaE cursor-pointer transition-[0.1s]`
+    const classe = `w-[90%] h-[2.5rem] p-2 gap-4 flex flex-row items-center  bg-padraoCinzaSC rounded-md hover:bg-padraoCinzaE cursor-pointer transition-[0.1s]`
     return(
         <div
      className={classe}> 
