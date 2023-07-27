@@ -10,7 +10,9 @@ module.exports = {
       "padraoCinzaC": "#111521",
       "padraoCinzaE": "#070B14",
       "padraoCinzaSC": "#1F2437",
-      "dourado": "#F28D19"
+      "dourado": "#F28D19",
+      "blueButton": "#4476F9",
+      "orangeButton": "#FB8B03"
     },
     extend: {
       backgroundImage: {
