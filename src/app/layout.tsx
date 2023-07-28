@@ -21,8 +21,10 @@ export default function RootLayout({
       <body className={roboto.className}>
         <div className='w-screen h-screen bg-padraoCinzaE flex flex-row'>
           <AsideBar/>
+          <section className="flex flex-col w-full h-full">
           <TopBar/>
           {children}
+          </section>
         </div>
       </body>
     </html>
